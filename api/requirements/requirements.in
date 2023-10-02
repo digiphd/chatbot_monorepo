@@ -1,0 +1,8 @@
+pip-tools
+python-dotenv
+fastapi
+uvicorn
+pymongo
+openai
+langchain
+loguru
