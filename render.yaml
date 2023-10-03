@@ -1,3 +1,6 @@
-build:
-  - ./pre_install.sh
-  - pip install -r api/requirements/requirements.txt
+services:
+  - type: web
+    name: your-service-name
+    env: python
+    buildCommand: python -m pip install --upgrade pip && pip install -r api/requirements/requirements.txt
+    startCommand: python main.py
