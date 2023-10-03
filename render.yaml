@@ -1,0 +1,3 @@
+build:
+  - ./pre_install.sh
+  - pip install -r api/requirements/requirements.txt
