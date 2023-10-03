@@ -19,9 +19,7 @@ async def on_message(message):
     user_message = message.content
     server_url='http://127.0.0.1:8000/chat/'
     headers = {'Content-Type': 'application/json'}
-    logger.debug(f"Message Content: {message.content}")
-    logger.debug(f"Message Type: {message.type}")
-    logger.debug(f"Message Embeds: {message.embeds}")
+
     response = requests.post(server_url, json={'message': user_message, 'expert_type':'youtube'}, headers=headers)
     # Log the server URL and port
     logger.debug(f'Response: {response}')
