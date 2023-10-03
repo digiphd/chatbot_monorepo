@@ -4,3 +4,4 @@ from loguru import logger
 load_dotenv(find_dotenv())
 
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')

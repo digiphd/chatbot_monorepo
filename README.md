@@ -56,11 +56,11 @@ To interact with the chatbot on Discord, use the command `!ask` followed by your
 
 ```bash
 !ask How can I improve my video titles?
-
+```
 
 ### Things to do:
 - [x] Setup local dev environment
 - [x] Get test servers running locally (frontend, bots, fastapi)
 - [] Get simple discord bot working with api locally
-- [] Make sure memory persists at a user level (perhaps use mongodb)
 - [] Add MIT License Attribution
+- [] Make sure memory persists at a user level (perhaps use mongodb)

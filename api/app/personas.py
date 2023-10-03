@@ -1,7 +1,7 @@
 # app/personas.py
 import openai  
 import os
-from common.prompts import seo_blogging_expert_template, ceo_founder_template, youtube_creator_template
+from tools.prompts import seo_blogging_expert_template, ceo_founder_template, youtube_creator_template
 from langchain.schema import (
     AIMessage,
     HumanMessage,

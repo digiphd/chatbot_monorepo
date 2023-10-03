@@ -6,6 +6,7 @@
 #
 aiohttp==3.8.5
     # via
+    #   discord-py
     #   langchain
     #   openai
 aiosignal==1.3.1
@@ -35,6 +36,10 @@ click==8.1.7
     #   uvicorn
 dataclasses-json==0.6.1
     # via langchain
+discord==2.3.2
+    # via -r api/requirements/requirements.in
+discord-py==2.3.2
+    # via discord
 dnspython==2.4.2
     # via pymongo
 fastapi==0.103.2

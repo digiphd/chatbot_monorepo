@@ -15,6 +15,7 @@ router = APIRouter()
 async def chat_endpoint(msg: ChatMessage):
     expert_type = msg.expert_type
     message = msg.message
+    logger.debug(msg)
     # TODO: Validate user token
     # TODO: Retrieve user conversation, context
     # TODO: Send context and to specific expert to handle response
