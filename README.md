@@ -66,6 +66,6 @@ To interact with the chatbot on Discord, use the command `!ask` followed by your
 - [] Deploy api to render - test
 - [] Deploy discord bot to render - test
 - [] Make sure long term memory persists at a user level (perhaps use mongodb)
-- [] Fine tune model based on youtube advice videos
 - [] Add a simple next.js frontend for local testing
+- [] Fine tune model based on youtube advice videos
 - [] Write unit tests 
